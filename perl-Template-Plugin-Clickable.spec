@@ -18,7 +18,6 @@ Buildrequires:  perl(Template)
 Buildrequires:  perl(URI::Find)
 Buildrequires:  perl(UNIVERSAL::require)
 buildArch:      noarch
-buildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description
 Template::Plugin::Clickable is a plugin for TT, which allows you to filter
